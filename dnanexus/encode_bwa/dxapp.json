@@ -91,7 +91,7 @@
   ],
   "runSpec": {
     "interpreter": "python2.7",
-    "file": "src/ENCODE_BWA.py",
+    "file": "src/encode_bwa.py",
     "systemRequirements": {
       "main":        {"instanceType": "mem2_hdd2_x1"},
       "process":     {"instanceType": "mem3_ssd1_x32"},
