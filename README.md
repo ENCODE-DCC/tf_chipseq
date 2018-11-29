@@ -29,4 +29,4 @@ Peak calling (transcription factors)
 2. Threshold peaks with IDR.
 3. Report IDR-thresholded peak sets, self-consistency ratio, rescue ratio, reproducibility test.
 
-NOTE: Pipeline V2 can be found: https://github.com/ENCODE-DCC/chip-seq-pipeline2
+NOTE: Pipeline V2 can be found at https://github.com/ENCODE-DCC/chip-seq-pipeline2.
