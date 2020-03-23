@@ -748,7 +748,8 @@ def main():
                 'gappedpeak_as': dxpy.dxlink(resolve_file(args.gappedpeak_as)),
                 'broadpeak_as':  dxpy.dxlink(resolve_file(args.broadpeak_as)),
                 'genomesize': genomesize,
-                'chrom_sizes': chrom_sizes
+                'chrom_sizes': chrom_sizes,
+                'fragment_length': args.fragment_length
             }
 
         # have to prune out any arguments with value None because DX will error
@@ -783,7 +784,8 @@ def main():
                         'as_file': dxpy.dxlink(resolve_file(args.narrowpeak_as)),
                         'idr_peaks': True,
                         'spp_version': args.spp_version,
-                        'spp_instance': args.spp_instance
+                        'spp_instance': args.spp_instance,
+                        'fragment_length': args.fragment_length
                         }
             if chrom_sizes:
                 peaks_stage_input_mapping.update({'chrom_sizes': chrom_sizes})
